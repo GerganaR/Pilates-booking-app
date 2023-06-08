@@ -1,0 +1,22 @@
+.members-page-wrapper {
+  padding: 30px 20px;
+
+  min-height: 100vh;
+}
+
+.page-search {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .page-search {
+    flex-direction: column;
+    align-items: start;
+  }
+  .page-header p {
+    margin-bottom: 0;
+  }
+}

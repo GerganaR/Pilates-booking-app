@@ -1,0 +1,66 @@
+.reservation-wrapper .room-mirror .mirror {
+  width: 65%;
+  height: 15px;
+  border-radius: 12px;
+  background-color: rgb(222, 227, 240);
+}
+
+.reservation-wrapper .room-mats {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 80px;
+  row-gap: 40px;
+}
+
+.reservation-wrapper .room-mats .mat {
+  width: 100px;
+  margin: 0 25px;
+  height: 150px;
+  border-radius: 12px;
+  background-color: rgb(222, 227, 240);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: #b5b1b1;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.reservation-wrapper .room-mats .mat .mat-initials {
+  display: none;
+}
+
+.reservation-wrapper .room-mats .mat .mat-number {
+  display: flex;
+}
+
+.reservation-wrapper .room-mats .mat:hover {
+  transform: scale(1.1);
+}
+
+.reservation-wrapper .room-mats .booked {
+  background-color: var(--color-blue);
+  font-size: 27px;
+  font-weight: 500;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.reservation-wrapper .room-mats .booked .mat-number {
+  display: none;
+}
+
+.reservation-wrapper .room-mats .booked .mat-initials {
+  width: 60px;
+  height: 60px;
+  background: rgb(222, 227, 240);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

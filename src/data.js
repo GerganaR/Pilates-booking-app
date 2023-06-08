@@ -1,0 +1,330 @@
+import { BsFillPeopleFill } from "react-icons/bs";
+import { FaWeightHanging } from "react-icons/fa";
+export const workoutTemplate = {
+  name: "Pilates",
+  days: [1, 3, 5],
+  time: [
+    {
+      hour: 9,
+      minutes: 30,
+    },
+    {
+      hour: 10,
+      minutes: 30,
+    },
+    {
+      hour: 11,
+      minutes: 30,
+    },
+  ],
+  freeSpaces: 7,
+};
+
+export const WorkoutTemplateMine = {
+  name: "Pilates",
+  days: [1, 3, 5],
+  time: ["13:30", "15:30", "17:30"],
+};
+
+export const members = [
+  {
+    firstName: "John",
+    lastName: "Doe",
+    email: "bob.johnson@abv.com",
+    address: "789 Elm St, Anytown USA",
+    phone: "+1-555-555-1214",
+    age: 42,
+    date_reg: "12/05/2021",
+
+    avatar: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+  },
+  {
+    firstName: "John",
+    lastName: "Doe",
+    email: "john.doeh@abv.com",
+    address: "789 Elm St, Anytown USA",
+    phone: "+1-555-555-1214",
+    age: 42,
+    date_reg: "12/05/2021",
+
+    avatar: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+  },
+  {
+    firstName: "Bob",
+    lastName: "Johnson",
+    email: "bob.johnson@abv.com",
+    address: "789 Elm St, Anytown USA",
+    phone: "+1-555-555-1214",
+    age: 42,
+    date_reg: "12/05/2021",
+    avatar: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+  },
+  {
+    firstName: "Marina",
+    lastName: "Petrova",
+    email: "marina.p@abv.com",
+    address: "789 Elm St, Anytown USA",
+    phone: "+1-555-555-1214",
+    age: 18,
+    date_reg: "12/05/2021",
+
+    avatar: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+  },
+  {
+    firstName: "Donika",
+    lastName: "Ivanova",
+    email: "marina.p@abv.com",
+    address: "789 Elm St, Anytown USA",
+    phone: "+1-555-555-1214",
+    age: 18,
+    date_reg: "12/05/2021",
+
+    avatar: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+  },
+  {
+    firstName: "Donika",
+    lastName: "Ivanova",
+    email: "marina.p@abv.com",
+    address: "789 Elm St, Anytown USA",
+    phone: "+1-555-555-1214",
+    age: 18,
+    date_reg: "12/05/2021",
+
+    avatar: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+  },
+];
+export const trainers = [
+  {
+    firstName: "John",
+    lastName: "Doe",
+    email: "bob.johnson@abv.com",
+    address: "789 Elm St, Anytown USA",
+    phone: "+1-555-555-1214",
+    age: 42,
+    date_reg: "12/05/2021",
+    specialization: "Pilates",
+    height: "175 cm",
+    weight: "75 kg",
+    avatar: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+  },
+  {
+    firstName: "John",
+    lastName: "Doe",
+    email: "john.doeh@abv.com",
+    address: "789 Elm St, Anytown USA",
+    phone: "+1-555-555-1214",
+    age: 42,
+    date_reg: "12/05/2021",
+    specialization: "Pilates",
+    height: "175 cm",
+    weight: "75 kg",
+
+    avatar: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+  },
+  {
+    firstName: "Bob",
+    lastName: "Johnson",
+    email: "bob.johnson@abv.com",
+    address: "789 Elm St, Anytown USA",
+    phone: "+1-555-555-1214",
+    age: 42,
+    date_reg: "12/05/2021",
+    specialization: "Pilates",
+    height: "175 cm",
+    weight: "75 kg",
+
+    avatar: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+  },
+  {
+    firstName: "Marina",
+    lastName: "Petrova",
+    email: "marina.p@abv.com",
+    address: "789 Elm St, Anytown USA",
+    phone: "+1-555-555-1214",
+    age: 18,
+    date_reg: "12/05/2021",
+    specialization: "Pilates",
+    height: "175 cm",
+    weight: "75 kg",
+
+    avatar: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+  },
+  {
+    firstName: "Donika",
+    lastName: "Ivanova",
+    email: "marina.p@abv.com",
+    address: "789 Elm St, Anytown USA",
+    phone: "+1-555-555-1214",
+    age: 18,
+    date_reg: "12/05/2021",
+    specialization: "Pilates",
+    height: "175 cm",
+    weight: "75 kg",
+
+    avatar: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+  },
+  {
+    firstName: "Donika",
+    lastName: "Ivanova",
+    email: "marina.p@abv.com",
+    address: "789 Elm St, Anytown USA",
+    phone: "+1-555-555-1214",
+    age: 18,
+    specialization: "Pilates",
+    height: "175 cm",
+    weight: "75 kg",
+    avatar: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+    date_reg: "12/05/2021",
+  },
+];
+
+export const WidgetItems = [
+  {
+    id: 1,
+    title: "Clients",
+    text: "110",
+    className: "orange",
+    icon: <BsFillPeopleFill />,
+  },
+  {
+    id: 2,
+    title: "Trainers",
+    text: "30",
+    className: "purple",
+    icon: <BsFillPeopleFill />,
+  },
+  {
+    id: 3,
+    title: "Courses",
+    text: "30",
+    className: "blue",
+    icon: <FaWeightHanging />,
+  },
+];
+
+export const reservations = [
+  {
+    user: {
+      firstName: "John",
+      lastName: "Doe",
+      email: "johndoe@example.com",
+      phoneNumber: "+1 123-456-7890",
+      avatar: "https://example.com/avatar.jpg",
+      age: 35,
+    },
+    workout: {
+      workoutTemplate: {
+        name: "Yoga",
+        days: [1, 3, 5],
+        time: ["09:15", "10:30"],
+        trainer: {
+          firstName: "Jane",
+          lastName: "Doe",
+          email: "janedoe@example.com",
+          phoneNumber: "+1 234-567-8901",
+          avatar: "https://example.com/avatar.jpg",
+          age: 30,
+        },
+        location: {
+          city: "New York",
+          country: "USA",
+          trainingRoom: "Room A",
+          address: "123 Main St",
+        },
+        tags: ["yoga", "mindfulness"],
+        level: "Beginner",
+        freeSpaces: 20,
+      },
+      workoutDate: "2023-06-01",
+      freeSpaces: 18,
+      reservedPlaces: [
+        {
+          user: {
+            firstName: "Mary",
+            lastName: "Smith",
+            email: "marysmith@example.com",
+            phoneNumber: "+1 345-678-9012",
+            avatar: "https://example.com/avatar.jpg",
+            age: 28,
+          },
+          workout: {
+            workoutTemplate: {
+              name: "Yoga",
+              days: [1, 3, 5],
+              time: ["09:15", "10:30"],
+              trainer: {
+                firstName: "Jane",
+                lastName: "Doe",
+                email: "janedoe@example.com",
+                phoneNumber: "+1 234-567-8901",
+                avatar: "https://example.com/avatar.jpg",
+                age: 30,
+              },
+              location: {
+                city: "New York",
+                country: "USA",
+                trainingRoom: "Room A",
+                address: "123 Main St",
+              },
+              tags: ["yoga", "mindfulness"],
+              level: "Beginner",
+              freeSpaces: 20,
+            },
+            workoutDate: "2023-06-01",
+            freeSpaces: 18,
+          },
+          workoutDate: "2023-06-01",
+          bookedPlace: 1,
+        },
+      ],
+    },
+    workoutDate: "2023-06-01",
+    bookedPlace: 1,
+  },
+];
+export const userReservations = [
+  {
+    src: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+    name: "Pilates",
+    fullName: "Elena Zlateva",
+    email: "elenazlateva@abv.bg",
+    phone: "0865 369 584",
+    address: "Lev Tolstoy 5, Plovdiv",
+    time: "13:30",
+    date: "14/06/2021",
+    place: 5,
+  },
+  {
+    src: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+    name: "Pilates",
+    fullName: "Petya Petrova",
+    email: "petyapetrova@abv.bg",
+    phone: "0865 369 584",
+    address: "Cherni Vrah 10, Sofia",
+    time: "13:30",
+    date: "16/06/2021",
+    place: 3,
+  },
+  {
+    src: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+    name: "Pilates",
+    fullName: "Ina Lecheva",
+    email: "inalecheva@abv.bg",
+    phone: "0865 369 584",
+    address: "Bul. Ruski 35, Plovdiv",
+    time: "15:30",
+    date: "19/06/2021",
+    place: 2,
+  },
+  {
+    src: "https://cdn-icons-png.flaticon.com/512/147/147137.png",
+    name: "Pilates",
+    fullName: "Ina Lecheva",
+    email: "inalecheva@abv.bg",
+    phone: "0865 369 584",
+    address: "Bul. Ruski 35, Plovdiv",
+    time: "15:30",
+    date: "21/06/2021",
+    place: 2,
+  },
+];

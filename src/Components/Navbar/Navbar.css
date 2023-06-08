@@ -1,0 +1,127 @@
+.navbar-app {
+  display: flex;
+  align-items: center;
+  color: #555;
+  border-bottom: 0.2px solid #f4f4f4;
+  padding: 0.85rem 1rem;
+  width: 100%;
+  background-color: #fff;
+}
+.navbar-app .wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-app .search-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  left: 15px;
+  color: #848484;
+}
+.navbar-app .search {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  position: relative;
+}
+.navbar-app input {
+  border: 0.2px solid #e3e3e3;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 0.25rem 1.75rem;
+  outline: none;
+  background-color: transparent;
+  color: #848484;
+}
+.navbar-app input::placeholder {
+  font-size: 14px;
+  padding: 10px;
+}
+.navbar-app .items {
+  display: flex;
+  align-items: center;
+}
+.navbar-app .greeting p {
+  font-size: 14px;
+  color: #b0b0b0;
+  margin: 0;
+}
+.navbar-app .greeting h6 {
+  font-size: 20px;
+  color: #0a0a0a;
+  font-weight: bold;
+}
+.navbar-app .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 2px;
+  padding: 0 5px;
+}
+.navbar-app .item .item-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #919192;
+  border-radius: 50%;
+  background-color: #f1f0f3;
+}
+.navbar-app .item .current-user {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0a0a0a;
+  padding: 0 10px;
+}
+.navbar-app .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.edit-menu {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.edit-menu .edit-menu-item {
+  position: absolute;
+  top: 36px;
+  right: 0;
+  min-width: 173px;
+  padding: 16px 10px;
+  background-color: #fff;
+  font-size: 16px;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.edit-menu .edit-menu-item div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .navbar-app {
+    position: fixed;
+    align-items: center;
+    z-index: 22;
+  }
+  .navbar-app .search {
+    display: none;
+  }
+  .navbar-app .greeting {
+    padding-left: 35px;
+  }
+
+  .navbar-app .greeting h6 {
+    font-size: 18px;
+  }
+}

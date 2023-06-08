@@ -1,0 +1,71 @@
+/* ReservationDetails */
+.pilates-info {
+  background: #6985ed;
+  padding: 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.pilates-info .pilates-title {
+  margin-bottom: 10px;
+}
+
+.pilates-info .pilates-title h1,
+.pilates-title-empty h3 {
+  font-size: 25px;
+}
+
+.pilates-title-empty {
+  padding-top: 5px;
+  height: 150px;
+}
+.pilates-title-empty p {
+  font-size: 16px;
+}
+.pilates-info .pilates-info-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.pilates-info .pilates-info-item img {
+  width: 30px;
+  height: 30px;
+}
+
+.chip {
+  border-radius: 50px;
+  color: #fff;
+  border: 2px solid #fff;
+  margin: 3px;
+  padding: 4px 10px;
+}
+
+/* DatePickerListItem */
+.list-item {
+  margin: 20px 0px;
+  padding: 20px 15px;
+  font-size: 14px;
+  color: #000;
+  background-color: rgb(234, 236, 241);
+  border-left: 5px solid var(--color-blue);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+}
+
+.list-item-name h2 {
+  font-size: 18px !important;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--color-blue);
+}
+
+.list-item-details p {
+  margin: 5px 0px;
+  font-size: 15px;
+  color: #353535;
+}

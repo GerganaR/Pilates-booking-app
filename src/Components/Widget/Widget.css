@@ -1,0 +1,49 @@
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3px;
+  flex: 1;
+  padding: 20px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 15px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/2871/2871284.png");
+  background-size: cover;
+  background-position: right top;
+}
+.widget-icon {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 5px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.widget-icon.orange {
+  background-color: #f2855d;
+}
+
+.widget-icon.blue {
+  background-color: #6884ed;
+}
+
+.widget-icon.purple {
+  background-color: #9059f6;
+}
+
+.widget-text {
+  font-size: 1.125rem;
+}
+
+.widget-title {
+  font-size: 1.125rem;
+  color: #9d9d9d;
+}
+
+.widget-wrapper {
+  display: flex;
+  gap: 15px;
+}

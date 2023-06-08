@@ -1,0 +1,69 @@
+.date-picker-wrapper {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  color: #fff;
+  background: #f5f5f8;
+}
+.list-wrapper {
+  padding: 20px 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color: #f5f5f8;
+  height: 65vh;
+  margin-bottom: 20px;
+}
+
+.list-wrapper-empty,
+.reservatin-empty {
+  text-align: left;
+  padding: 20px 20px 0px 20px;
+
+  color: #ccc;
+}
+
+.date-picker-wrapper h2 {
+  font-size: 25px;
+  font-family: var(--font-base);
+}
+
+.date-picker-wrapper p {
+  font-family: var(--font-alt);
+  font-size: 16px;
+}
+
+.react-datepicker__input-container input {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: 0px;
+  width: 100%;
+  color: #b2b2b2;
+}
+
+/* reservation */
+
+.reservation-wrapper {
+  padding: 15px 15px 15px 15px;
+  width: 100%;
+  min-height: 68vh;
+  background-color: #f5f5f8;
+}
+
+.reservation-wrapper .room-mirror {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* reservation button */
+
+.btn-reserve {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btn-reserve .btn {
+  background-color: var(--color-blue);
+  width: 25%;
+}

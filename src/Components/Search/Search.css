@@ -1,0 +1,16 @@
+.search-input input {
+  padding: 0.5rem 1.85rem;
+  outline: none;
+  background-color: transparent;
+  color: #848484;
+  font-size: 15px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.search-input-icon {
+  position: relative;
+  top: 31px;
+  left: 9px;
+  color: #919192;
+}
